@@ -3,9 +3,9 @@ package node
 import "math"
 
 type Node struct {
-	value     string `json:"value"`
-	leftNode  *Node  `json:"leftNode"`
-	rightNode *Node  `json:"rightNode"`
+	value     string
+	leftNode  *Node
+	rightNode *Node
 }
 
 func New(value string, leftNode *Node, rightNode *Node) *Node {
